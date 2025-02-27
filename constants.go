@@ -29,15 +29,17 @@ const (
 	MaxCrypt       = 20
 
 	// ioctl commands
-	SetFd       = 0x4C00
-	ClrFd       = 0x4C01
-	SetStatus   = 0x4C02
-	GetStatus   = 0x4C03
-	SetStatus64 = 0x4C04
-	GetStatus64 = 0x4C05
-	ChangeFd    = 0x4C06
-	SetCapacity = 0x4C07
-	SetDirectIO = 0x4C08
+	SetFd         = 0x4C00
+	ClrFd         = 0x4C01
+	SetStatus     = 0x4C02
+	GetStatus     = 0x4C03
+	SetStatus64   = 0x4C04
+	GetStatus64   = 0x4C05
+	ChangeFd      = 0x4C06
+	SetCapacity   = 0x4C07
+	SetDirectIO   = 0x4C08
+	SetBlockSize  = 0x4C09
+	LoopConfigure = 0x4C0A
 
 	CtlAdd     = 0x4C80
 	CtlRemove  = 0x4C81
